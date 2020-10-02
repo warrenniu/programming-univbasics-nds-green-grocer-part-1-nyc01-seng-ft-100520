@@ -1,5 +1,6 @@
 def find_item_by_name_in_collection(name, collection)
   collection.each do |product|
+    binding.pry
     item.each do |item, grocery_name|
       if name == grocery_name
         return product
@@ -9,7 +10,7 @@ def find_item_by_name_in_collection(name, collection)
 # count = 0
 # while count < collection.length do
 #   if name ==
-  binding.pry
+  # binding.pry
     end
   end
 end
