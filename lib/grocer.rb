@@ -1,7 +1,7 @@
 def find_item_by_name_in_collection(name, collection)
   collection.each do |product|
     # binding.pry
-    item.each do |item, grocery_name|
+    product.each do |item, grocery_name|
       if name == grocery_name
         return product
   # Implement me first!
