@@ -4,6 +4,7 @@ def find_item_by_name_in_collection(name, collection)
   # Consult README for inputs and outputs
 count = 0
 while count < collection.length do
+  if 
   binding.pry
 
 end
