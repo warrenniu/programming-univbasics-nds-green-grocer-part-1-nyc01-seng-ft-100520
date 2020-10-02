@@ -8,6 +8,7 @@ def find_item_by_name_in_collection(name, collection)
         cart = product
         return cart
         if name !== grocery_name
+          binding.pry
           return nil
 
   # Implement me first!
