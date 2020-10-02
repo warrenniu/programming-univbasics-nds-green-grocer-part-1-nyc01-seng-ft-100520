@@ -1,10 +1,11 @@
 def find_item_by_name_in_collection(name, collection)
+  collection.each do |key, value|
   # Implement me first!
   #
   # Consult README for inputs and outputs
-count = 0
-while count < collection.length do
-  if 
+# count = 0
+# while count < collection.length do
+#   if name == 
   binding.pry
 
 end
