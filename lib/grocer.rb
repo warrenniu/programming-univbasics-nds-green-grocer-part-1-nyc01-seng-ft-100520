@@ -8,6 +8,7 @@ def find_item_by_name_in_collection(name, collection)
 # while count < collection.length do
 #   if name ==
   binding.pry
+    end
   end
 end
 
