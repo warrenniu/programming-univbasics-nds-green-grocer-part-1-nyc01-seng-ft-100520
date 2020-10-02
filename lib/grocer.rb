@@ -4,7 +4,7 @@ def find_item_by_name_in_collection(name, collection)
     product.each do |item, grocery_name|
       if name == grocery_name
         return product
-      elsif
+      
   # Implement me first!
   #
   # Consult README for inputs and outputs
