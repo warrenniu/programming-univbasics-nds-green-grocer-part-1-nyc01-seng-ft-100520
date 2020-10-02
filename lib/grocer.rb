@@ -4,7 +4,7 @@ def find_item_by_name_in_collection(name, collection)
     # binding.pry
     product.each do |item, grocery_name|
       if name == grocery_name
-        return product
+        cart = product
 
   # Implement me first!
   #
