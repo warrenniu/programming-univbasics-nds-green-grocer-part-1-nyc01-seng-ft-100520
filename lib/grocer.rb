@@ -5,6 +5,7 @@ def find_item_by_name_in_collection(name, collection)
     product.each do |item, grocery_name|
       if name == grocery_name
         cart = product
+        return cart
 
   # Implement me first!
   #
