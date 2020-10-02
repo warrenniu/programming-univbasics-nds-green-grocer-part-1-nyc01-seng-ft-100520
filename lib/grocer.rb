@@ -5,9 +5,9 @@ def find_item_by_name_in_collection(name, collection)
   # Consult README for inputs and outputs
 # count = 0
 # while count < collection.length do
-#   if name == 
+#   if name ==
   binding.pry
-
+  end
 end
 
 def consolidate_cart(cart)
