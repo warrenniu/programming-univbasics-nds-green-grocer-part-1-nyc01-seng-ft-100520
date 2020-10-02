@@ -1,6 +1,6 @@
 def find_item_by_name_in_collection(name, collection)
-  collection.each do |item|
-    item.each do |key, value|
+  collection.each do |product|
+    item.each do |item, grocery_name|
   # Implement me first!
   #
   # Consult README for inputs and outputs
