@@ -2,6 +2,7 @@ def find_item_by_name_in_collection(name, collection)
   collection.each do |product|
     item.each do |item, grocery_name|
       if name == grocery_name
+        return
   # Implement me first!
   #
   # Consult README for inputs and outputs
